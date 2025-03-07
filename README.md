@@ -1,1 +1,1 @@
-# A simple portfolio website
+# A simple portfolio website.
