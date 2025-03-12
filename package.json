@@ -3,11 +3,9 @@
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
-    "build": "parcel build src/index.html",
-    "start": "parcel src/index.html",
-    "deploy": "gh-pages -d dist"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
