@@ -1,0 +1,219 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.2a2e97fc.png">
+
+    <!-- Todo: put here your site title -->
+    <title>[Your name here] | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill">
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/index.4a508c1d.css">
+    <script defer="" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Ohm Patel</span>
+          <br>
+          I'm a Software Engineer with a focus in AI/ML.  
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="/profile.6ee28169.jpg">
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I am graduate student doing Master's of Science in Computer Science from New York University. I am deeply passionate about
+                Data Analytics, Data Science, Machine Learning, and Artificial Intelligence. My Coursework and work experience have equipped me with technical expertise
+                in the aforementioned fields as well as other domains such as Cloud Computing, Remote Sensing, Big Data processing etc. 
+                My proficiency in communication and my proactive approach make me a valuable team member who can effectively collaborate and drive projects to successful completion.
+              </p>
+              <p class="about-wrapper__info-text">
+                Apart from software development, I also like to spend my time playing the guitar, listening to music and playing outdoor games such as soccer and cricket.
+              </p>
+              <span class="d-flex mt-3">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/Resume.pdf">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Spotify playlist creation based on Text sentiment</h3>
+                <div>
+                  <p class="mb-4">
+                  - Designed a serverless API-driven application that generates personalized playlists based on text sentiment analysis<br>
+                  - Built a React.js frontend and integrated OAuth authentication to allow users to save playlists to Spotify<br>
+                  - Implemented a microservices backend with AWS Lambda, API Gateway, and DynamoDB, ensuring a scalability<br>
+                  - Integrated sentiment analysis with AWS Sagemaker, correlating text input with song lyrics
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/Spotify.8b6656c8.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Dual source – Single channel Audio Source Separation</h3>
+                <div>
+                  <p class="mb-4">
+                    - Generated the Libri2Mix dataset with over 5000 2-speaker overlapped audio clips from the LibriSpeech corpus<br>
+                    - Modified the Conv-TasNet architecture using PyTorch to separate the audio signals, achieving an SI-SDRI of 11.5
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/ohmpatel46/DL4M_Project">
+                Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/ohmpatel46/DL4M_Project" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/DL4M.593bbb96.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">RAG News Summarizer</h3>
+                <div>
+                  <p class="mb-4">
+                    - Developed a Retrieval-Augmented Generation (RAG) pipeline using LangChain and OpenAI to generate financial and market news insights<br>
+                    - Designed an API-based data ingestion system, storing and querying 1000+ news articles in an PostgreSQL database
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/ohmpatel46/RAG-News-Summarizer">
+                Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/ohmpatel46/RAG-News-Summarizer" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/RAG_News_Summarizer.af2f3d30.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">For any collaborations, queries, opportunities or a quick chat. </p>
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:ohmpatel46@gmail.com">Let's Connect!</a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/ohmpatel46/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/ohmpatel46" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr>
+
+        <p class="footer__text">
+          © 2025 - Developed by
+          <a rel="noreferrer" href="https://www.linkedin.com/in/ohmpatel46/" target="_blank">Ohm Patel</a>
+        </p>
+
+    <script defer="" src="/index.975ef6c8.js"></script>
+  </div></footer></body>
+</html>
